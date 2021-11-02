@@ -1,0 +1,35 @@
+{
+  "name": "employee.keep-up",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acarr13/employee.keep-up.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acarr13/employee.keep-up/issues"
+  },
+  "homepage": "https://github.com/acarr13/employer.keep-upr#readme",
+  "dependencies": {
+    "console.table": "^0.10.0",
+    "express": "^4.17.1",
+    "inquirer": "^7.3.3",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.2",
+    "node.js": "^0.0.1-security",
+    "nodemon": "^2.0.4",
+    "root": "^3.2.0",
+    "validator": "^13.0.0"
+  },
+  "devDependencies": {
+    "jest": "^27.3.1"
+  }
+}
