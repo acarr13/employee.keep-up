@@ -17,7 +17,7 @@ Designed a command-line application from scratch to manage a company's employee 
 
 
 ## Links
-[App Code](https://github.com/acarr13/employees.keep-up)
+[App Code](https://github.com/acarr13/employee.keep-up)
 
 [Video Recording]()
 

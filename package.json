@@ -5,6 +5,9 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "migrate": "mysql db/employees.db < db/schema.sql",
+    "seed": "mysql db/employees.db < db/seeds.sql",
+    "db": "mysql db/employees.db",
     "watch": "nodemon server.js",
     "start": "node server.js"
   },
@@ -17,20 +20,23 @@
   "bugs": {
     "url": "https://github.com/acarr13/employee.keep-up/issues"
   },
-  "homepage": "https://github.com/acarr13/employer.keep-upr#readme",
+  "homepage": "https://github.com/acarr13/employee.keep-up#readme",
   "dependencies": {
+    "chalk": "^4.0.0",
     "console.table": "^0.10.0",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
+    "figlet": "^1.4.0",
     "inquirer": "^7.3.3",
+    "msql": "^1.0.3",
     "mysql": "^2.18.1",
-    "mysql2": "^2.3.2",
-    "node.js": "^0.0.1-security",
+    "mysql2": "^2.3.0",
     "nodemon": "^2.0.4",
     "root": "^3.2.0",
-    "server.js": "^1.0.0",
     "validator": "^13.0.0"
   },
   "devDependencies": {
     "jest": "^27.3.1"
   }
 }
+
